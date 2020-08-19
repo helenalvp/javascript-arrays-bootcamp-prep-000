@@ -16,7 +16,8 @@ return  [...array, element];
 
 //we are trying to add an element to the end of array by altering the original arrays
 function destructivelyAddElementToEndOfArray(array, element) {
-  return array.push(element);
+  array.push(element);
+  return array;
 }
 
 function accessElementInArray(array,index) {
