@@ -24,7 +24,8 @@ function accessElementInArray(array,index) {
 
 //we want to return the array with the first element removed by altering the original array
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.shift();
+  array.shift();
+  return array;
 }
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
