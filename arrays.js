@@ -16,7 +16,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 //this did not come up at all for the thinks i want to do.
 function accessElementInArray(array,index) {
-  return cosole.log(array[index]);
+  return array[index];
 }
 
 //i feel like there is a problem with me telling the computer what is an array
