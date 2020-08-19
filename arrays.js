@@ -22,14 +22,14 @@ function accessElementInArray(array,index) {
 //i feel like there is a problem with me telling the computer what is an array
 //what is an element and what is and index
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.shift(1);
+  return array.shift();
 }
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 }
 //what
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.pop(1);
+  return array.pop(-1);
 }
 
 function removeElementFromEndOfArray(array) {
