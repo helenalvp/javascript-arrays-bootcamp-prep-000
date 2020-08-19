@@ -3,33 +3,36 @@ var array=[];
 function addElementToBeginningOfArray(array,element){
   return [element, ...array ];
 }
-//ill have to come back to this
+
+//we are trying to add an element to beg. of array by altering original array
 function destructivelyAddElementToBeginningOfArray(array, element) {
   return array.unshift(element)
 }
-//ill have to come back to this one too
+
 function addElementToEndOfArray(array,element){
 return  [...array, element];
 }
+
+//we are trying to add an element to the end of array by altering the original arrays
 function destructivelyAddElementToEndOfArray(array, element) {
   return array.push(element);
 }
-//this did not come up at all for the thinks i want to do.
+
 function accessElementInArray(array,index) {
   return array[index];
 }
 
-//i feel like there is a problem with me telling the computer what is an array
-//what is an element and what is and index
+//we want to return the array with the first element removed by altering the original array
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.shift();
 }
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 }
-//what
+//we want to return the array with the last element removed and by altering the array
 function destructivelyRemoveElementFromEndOfArray(array) {
-  return array.pop(0,array.length-1);
+  array.pop();
+  return array;
 }
 
 function removeElementFromEndOfArray(array) {
